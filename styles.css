@@ -32,3 +32,24 @@
     border: 3px solid navy;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
+
+#skills {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#skills ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+#skills li {
+    font-size: 18px;
+    margin: 5px 0;
+    transition: transform 0.2s;
+}
+
+#skills li:hover {
+    transform: scale(1.1);
+}

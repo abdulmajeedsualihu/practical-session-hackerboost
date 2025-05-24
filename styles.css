@@ -98,3 +98,14 @@
 #contact button:hover {
     background-color: darkblue;
 }
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
